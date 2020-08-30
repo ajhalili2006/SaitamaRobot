@@ -136,6 +136,7 @@ SLAP_TEMPLATES = (
     "@NeoTheKitty scratches {user2}",  #Pixels pet cat - @NeoTheKitty 
     "Majin buu ate {user2}",  #Dbz
     "Goblin slayer slays {user2}",  #Goblin Slayer
+    "Bog just ate {user2}" # WTAF is that Bog? https://stickpage.fandom.com/wiki/Bog
 )
 
 PING_STRING = (
