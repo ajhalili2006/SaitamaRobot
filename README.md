@@ -9,7 +9,7 @@ Can be found on telegram as [MickyRealbot](https://t.me/mickyreal_bot).
 
 The Support group can be reached out to at [Micky Help Chat](https://t.me/mickyrealbot), where you can ask for help about [SaitamaRobot](https://t.me/SaitamaRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [One Punch Updates](https://t.me/OnePunchUpdates) 
+News channel as at [One Punch Updates](https://telegram.dog/mickyreal_bot) 
 
 ## How to setup/deploy.
 
