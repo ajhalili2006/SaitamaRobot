@@ -51,14 +51,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
+Hi {}, my name is Micky Bot! 
 I am an Anime themed group management bot.
+I Am A Power Full Bot Of Telegram . My Creator - @SandeepBiswal 
 Build by weebs for weebs, I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is Micky Bot .
 I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
 the things I can help you with.
 
@@ -77,12 +78,12 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/0f4709d6529916036e91a.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/c43cd8f2a9634e51e17bb.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+There are two ways of supporting him; [PayPal](paypal.me/Sandipgudu549), or [Join Me](t.me/ptmlootoffers)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -189,27 +190,27 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Anie to your group",
+                            text="☑️ Add Micky to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="🚑 Support Group",
-                             url=f"https://t.me/anie_support"),
+                             url=f"https://t.me/mickyrealbot"),
                          InlineKeyboardButton(
                              text="🔔 Updates Channel",
-                             url="https://t.me/anie_support")
+                             url="https://t.me/mickyreal_bot")
                      ],
                      [
                          InlineKeyboardButton(
                              text="🧾 contact with my owner",
-                             url="https://t.me/shiwa_bhai_bot/29")
+                             url="https://t.me/SandeepBiswal")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🗄 Source code",
-                             url="https://github.com/botanie/SaitamaRobot")
+                             text=" Join For Earning",
+                             url="https://t.me/ptmlootoffers")
                      ]]))
     else:
         update.effective_message.reply_text(
